@@ -1,5 +1,5 @@
 var settings = {
-    "url": "http://ravigitte.pythonanywhere.com/solve/?exp=integrate(2*x%20+%20y,x)",
+    "url": "https://ravigitte.pythonanywhere.com/solve/?exp=integrate(2*x%20+%20y,x)",
     "method": "GET",
     "timeout": 0,
 };
