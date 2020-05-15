@@ -6,13 +6,7 @@ var settings = {
 $.ajax(settings).done(function (response) {
 
     var str = response[2].value;
-   /* console.log(str);
-    var finaldata = str.replace(/\\\\/g, "\\");
-    finaldata = finaldata.replace(/\\n/g, '');
-    finaldata = finaldata.replace(/eq/, '\\neq');
-     console.log(finaldata);*/
-
-
+  
     statement(response[0], "id1");
     simplification(response[1], "id2");
     steps(response[2], "id3");
